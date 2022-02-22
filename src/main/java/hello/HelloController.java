@@ -15,4 +15,10 @@ public class HelloController {
     public String helloworld() {
         return "Greetings from Springboot..!!! hello";
     }
+    
+    @RequestMapping("/helloworld")
+    public String hello() {
+        return "Greetings from Springboot..!!! helloworld";
+   }
+    
 }
